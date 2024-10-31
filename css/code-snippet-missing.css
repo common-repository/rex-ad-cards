@@ -1,0 +1,82 @@
+.rac-ad-card-content {
+	border-radius: 4px;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    background-color: #fff;
+    text-align: center;
+    max-width: 360px;
+	margin: 10px 0 10px 0;
+	padding: 10px 0;
+}
+
+.rac-ad-card-content h2 {
+	font-family: "Cabin", sans-serif;
+	color: #212121;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.rac-ad-card-content p {
+    color: #212121;
+    font-size: 14px;
+    margin: 10px 15px 20px 15px;
+}
+
+.rac-ad-card-content button {
+    line-height: 20px;
+    padding: 10px 32px;
+    position: relative;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    outline: 0;
+    transition: all .2s ease;
+    text-align: center;
+    vertical-align: middle;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: #0D9537;
+    border-color: #0D9537;
+    color: #fff;
+	margin-bottom: 10px;
+	text-transform: none;
+}
+
+.rac-ad-card-content button:hover {
+    -webkit-transform: translate3d(0,-1px,0);
+    -moz-transform: translate3d(0,-1px,0);
+    -ms-transform: translate3d(0,-1px,0);
+    -o-transform: translate3d(0,-1px,0);
+    transform: translate3d(0,-1px,0);
+    background: #0A772C;
+    border-color: #0A772C;
+}
+
+.rac-ad-card-content button a { 
+	color: #ffffff !important;
+    text-decoration: none !important;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.rac-card-footer {
+    color: #9a9a9a;
+    font-size: 12px;
+    position: relative;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 5px 10px 0 0;
+}

@@ -1,0 +1,125 @@
+.rac-container {
+	max-width: 900px;
+	padding-top: 20px;
+	padding-right: 10px;
+	font-family: "Cabin", sans-serif;
+}
+
+.rac-container h1 {
+	margin: 20px 0 0 0;
+	font-size: 25px;
+}
+
+.rac-container p {
+	margin: 15px 0 0 0;
+	font-size: 16px;
+}
+
+.rac-small {
+	font-size: 13px;
+	margin: 8px 0 0 0;
+}
+
+.rac-container hr {
+	border-bottom: 2px solid #0D9537;
+	border-top: 0;
+	margin: 20px 0 40px 0;
+}
+
+.rac-container textarea {
+	width: 600px;
+	height: 200px;
+}
+
+.rac-header {
+	color: #0D9537;
+	padding: 20px 20px 20px 0;
+	border-radius: 8px;
+}
+
+.rac-header img {
+	width: 180px;
+	vertical-align: middle;
+}
+
+.rac-header span {
+	float: right;
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.rac-panel-header {
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+	padding: 20px 20px 18px 20px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+
+.rac-panel-header-green {
+	background-color: #0D9537;
+}
+
+.rac-panel-header-purple {
+	background-color: #950D6B;
+	margin-top: 100px;
+}
+
+.rac-panel-body {
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	background-color: white;
+	padding: 20px;
+}
+
+.rac-panel-body-green {
+	border: 2px solid #0D9537;
+}
+
+.rac-panel-body-purple {
+	border: 2px solid #950D6B;
+}
+
+.rac-btn {
+	background-color: #0D9537;
+	border: 0;
+	color: white;
+	float: right;
+	padding: 6px 10px;
+	border-radius: 4px;
+	margin-top: 35px;
+	cursor: pointer;
+}
+
+.rac-shortcode-left {
+	font-weight: bold;
+	margin-right: 50px;
+}
+
+.rac-saved {
+	background-color: #0D9537;
+	padding: 4px;
+	margin-bottom: 10px;
+	color: white;
+	max-width: 250px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.rac-saved-no-margin {
+	margin-bottom: 0;
+}
+
+@media screen and (max-width: 900px) {
+	.rac-container textarea {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.rac-header span {
+		display: none;
+	}
+}
